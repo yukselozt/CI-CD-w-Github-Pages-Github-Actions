@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React w/yüksel
+          Learn React w/yüksel öztürk
         </a>
       </header>
     </div>
