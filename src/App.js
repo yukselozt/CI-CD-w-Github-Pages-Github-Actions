@@ -1,23 +1,19 @@
-import logo from "./logo.svg";
 import "./App.css";
+import React from "react";
+import Popup from "./Popup.jsx";
 
 function App() {
+  const [popup, setPopup] = React.useState(false);
+  const handleClick = () => {
+    setPopup(true);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React w/yukselozt
-        </a>
-      </header>
+      <button className="click" onClick={() => handleClick()}>
+        Click Me
+      </button>
+      <Popup open={popup} close={() => setPopup(false)} />
     </div>
   );
 }
