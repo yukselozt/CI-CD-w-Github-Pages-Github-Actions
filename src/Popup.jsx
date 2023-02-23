@@ -9,9 +9,7 @@ export default function Popup({ open, close }) {
       onClose={close}
       maxWidth="xl"
     >
-      <div className="popup">
-        <img alt="" src="1.png" />
-      </div>
+      <div className="popup"></div>
     </Dialog>
   );
 }
