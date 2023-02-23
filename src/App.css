@@ -37,8 +37,6 @@ body
   > div.MuiDialog-root.MuiModal-root.css-zw3mfo-MuiModal-root-MuiDialog-root
   > div.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container
   > div {
-  width: 498px;
-  height: 498px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,4 +53,6 @@ body
   width: 100%;
   height: 100%;
   border: none;
+  width: 498px;
+  height: 498px;
 }
