@@ -40,10 +40,12 @@ body
   display: flex;
   align-items: center;
   justify-content: center;
+  background: transparent;
 }
 .popup {
   border: none;
   width: 500px;
   height: 500px;
+  backdrop-filter: blur(3px);
   background: url("../public/logo512.png") center no-repeat;
 }
