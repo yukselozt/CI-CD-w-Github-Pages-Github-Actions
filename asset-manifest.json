@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/todo/static/css/main.e3f1569a.css",
+    "main.css": "/todo/static/css/main.f2021afb.css",
     "main.js": "/todo/static/js/main.dc3e5e50.js",
     "index.html": "/todo/index.html",
-    "main.e3f1569a.css.map": "/todo/static/css/main.e3f1569a.css.map",
+    "main.f2021afb.css.map": "/todo/static/css/main.f2021afb.css.map",
     "main.dc3e5e50.js.map": "/todo/static/js/main.dc3e5e50.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3f1569a.css",
+    "static/css/main.f2021afb.css",
     "static/js/main.dc3e5e50.js"
   ]
 }
