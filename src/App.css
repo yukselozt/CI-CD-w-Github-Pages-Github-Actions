@@ -43,7 +43,7 @@ body
 }
 .popup {
   border: none;
-  width: 1500px;
-  height: 1500px;
+  width: 500px;
+  height: 500px;
   background: url("../public/logo512.png") center no-repeat;
 }
