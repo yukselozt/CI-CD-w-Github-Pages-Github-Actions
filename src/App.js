@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <button className="click" onClick={() => handleClick()}>
-        Click Me
+        REACT JS
       </button>
       <Popup open={popup} close={() => setPopup(false)} />
     </div>
